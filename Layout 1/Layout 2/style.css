@@ -1,0 +1,66 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+}
+.Cabeçalho {
+    background-color: #2c4da8;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Cabeçalho .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.banner1 {
+    text-align: center;
+    background-color: white;
+    padding: 100px;
+} 
+    .banner1 {
+        display: flex;
+        gap: 10px; 
+        justify-content: center;
+    }
+    
+    .banner1 img {
+        width: 200px; 
+        height: auto; 
+        justify-content: center;
+    }
+    
+.banner1 {
+    width: 793;
+    height: 779;
+    top: 174px;
+    left: 120px;
+    justify-content: center;
+  
+  
+}
+.content {
+    text-align: center;
+    margin: 20px;
+}
+.content h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.content p {
+    font-size: 18px;
+    color: #555;
+}
